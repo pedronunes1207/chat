@@ -1,26 +1,17 @@
 # MERN Auth & Chat App
 
-### NodeJS - Express - JWT -  Socket.io - MongoDB - React - React Router - Context API - TailwindCSS
+### NodeJS - Express - JWT - Socket.io - MongoDB - React - React Router - Context API - TailwindCSS
 
 This is a perfect example for a MERN stack real-time chat application with authentication & authorization.
 
 Basically, it consists of 2 parts as the follows:
+
 - Real-time chat application using socket.io in node.js(Express)
 - JWT Authentication & Authorization stored in HTTP-only cookie
 
-## Demo url
-https://mern-auth-chat.onrender.com/
-
-![Screenshot 10](https://github.com/fskydev/mern-auth-chat/assets/61609164/8221d394-1d09-485a-8411-2d3ab3067f42)
-
-
 ## Usage
-- Create a MongoDB database and obtain your `MongoDB URI` - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)
-### Clone the project
 
-```
-git clone git@github.com:fskydev/mern-auth-chat.git
-```
+- Create a MongoDB database and obtain your `MongoDB URI` - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)
 
 ### Env Variables
 
@@ -35,18 +26,22 @@ JWT_SECRET_KEY=
 Change the JWT_SECRET to what you want
 
 ### Install Dependencies (backend & frontend)
+
 ```
 cd server
 npm install
 ```
+
 ```
 cd socket
 npm install
 ```
+
 ```
 cd client
 npm install
 ```
+
 ### Run locally
 
 ```
@@ -54,23 +49,29 @@ npm install
 cd server
 npm run dev
 ```
+
 ```
 # Run socket server
 cd socket
 npm run dev
 ```
+
 ```
 # Run frontend
 cd client
 npm run dev
 ```
+
 ## Build & Deploy
+
 ```
 cd client/ && npm install && npm run build && cd .. && cd server/ && npm install && npm run start
 ```
 
 ## Screenshots
+
 #### Private Chat
+
 ![Screenshot 10](https://github.com/fskydev/mern-auth-chat/assets/61609164/8221d394-1d09-485a-8411-2d3ab3067f42)
 ![Screenshot 01](https://github.com/fskydev/mern-auth-chat/assets/61609164/462a575f-aa61-4438-b04e-a60e55dffa38)
 
